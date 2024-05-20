@@ -1,0 +1,15 @@
+/baselightfilesystem1/Dune2/reel1/partA/1920x1080 2 3 4 31 32 33 67 68 69 70 122 123 155 1023 1111 1112 1160 1201 1202 1203 1204 1205 1211 1212 1213 1214 1215
+/baselightfilesystem1/Dune2/reel1/VFX/Hydraulx 1251 1252 1253 1260 <err> 1270 1271 1272 
+/baselightfilesystem1/Dune2/reel1/partA/1920x1080 1302 1303 1310 1500 5000 5001 5002
+/baselightfilesystem1/Dune2/pickups/shot_1ab/1920x1080 5010 5011 5012 5013 5014
+/baselightfilesystem1/Dune2/reel1/partA/1920x1080 5111 5122 5133 5144 5155 5166
+/baselightfilesystem1/Dune2/reel1/VFX/Framestore <null> 6188 6189 6190 6191
+/baselightfilesystem1/Dune2/reel1/VFX/Hydraulx 6197 6198 6199
+/baselightfilesystem1/Dune2/reel1/partA/1920x1080 6200 6201 6209 6212 6219 6233 6234 6267 6269 6271 6278 6282 6288 6289 6290 6292 6293 6294
+/baselightfilesystem1/Dune2/reel1/partB/1920x1080 6409 6410 6411 6413 6450 6666 6667 6668 6670 6671 6680 6681 6682 6683 6684
+/baselightfilesystem1/Dune2/reel1/VFX/AnimalLogic 6832 6833 6834 6911 6912 6913 6914
+/baselightfilesystem1/Dune2/reel1/partB/1920x1080 8845
+/baselightfilesystem1/Dune2/reel1/VFX/Hydraulx 8846
+/baselightfilesystem1/Dune2/reel1/VFX/Framestore 8847
+/baselightfilesystem1/Dune2/pickups/shot_2b/1920x1080 10001 10002 10008 11113 <null>
+/baselightfilesystem1/Dune2/reel1/partB/1920x1080 12011 12021 12031 12041 12051 12111 12121 12131 12141 12200 12211
