@@ -291,7 +291,7 @@ def open_video(video_file, xytech_data, output):
         #ffmpeg_command = f'ffmpeg -i {video_file} -vf "showinfo" -f null -'
         #output = subprocess.check_output(ffmpeg_command, shell=True, stderr=subprocess.STDOUT).decode()
        
-        project_id = '23c8342b-c6f6-41ae-8d6c-645973b37aa9'
+        project_id = 'path_to_project_in_frame.io'
         #timecode_data = {"timecode": timecode_str}
         #range_data = {"range": range_str}
 
@@ -312,8 +312,8 @@ def open_video(video_file, xytech_data, output):
         
         """      
                 #row += 1  # Move to the next row for the next range
-        url = f"https://app.frame.io/projects/23c8342b-c6f6-41ae-8d6c-645973b37aa9/items"
-        #mytoken = 'fio-u-VW45z5e-LpRLFdM7_B1h3woDv-kfrmI9FJYmFchyiC-R2LZf9Z9a6ys3TXynK4-9'
+        url = f"url_to_Frame.io"
+        #mytoken = 'token_genereated_from_frame.io'
         headers = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {mytoken}"
@@ -341,12 +341,10 @@ def open_video(video_file, xytech_data, output):
         }
         upload_items_to_project(project_id, mytoken, data)
         #print("after upload")"""   
-        #upload_items_to_project(project_id, mytoken, timecode_str, range_str)
-        #client = FrameioClient("ChajaToken")
-      
 
-        asset_id = "23c8342b-c6f6-41ae-8d6c-645973b37aa9"
-        url = "https://api.frame.io/v2/assets/" + asset_id + "/b6609ff9-83b3-479d-821a-f51b3191e647"
+
+        asset_id = "generatedfromframe.io"
+        url = "https://api.frame.io/v2/assets/" + asset_id + "generated_frame_io"
 
         payload = {
         "parts": [
@@ -365,7 +363,7 @@ def open_video(video_file, xytech_data, output):
 
         headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer <fio-u-VW45z5e-LpRLFdM7_B1h3woDv-kfrmI9FJYmFchyiC-R2LZf9Z9a6ys3TXynK4-9>"
+        "Authorization": "Bearer <generated_from_io"
         }
 
         response = requests.post(url, json=payload, headers=headers)
