@@ -99,8 +99,7 @@ def open_video(video_file, xytech_data, output):
     cap = cv2.VideoCapture(video_file)
     current_directory = os.getcwd()
     print(video_file)
-    
-    #update_frame_directory = "C:\Users\Al Azmine\Chaja proj 2\frames\ "
+ 
     """output_dir = os.path.join(current_directory, 'frames')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
