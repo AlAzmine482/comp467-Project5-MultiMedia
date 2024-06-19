@@ -1,7 +1,10 @@
 # comp467-Project5-MultiMedia
-Reading Baselight, xytech, and video demo files and getting frames, pictures, and clips. Uploading to Frame.io. Pictures get insertinto xlsxfile, paths, folders, and other frames to fix goes to csv
+Reading Baselight, xytech, and video demo files and getting frames, pictures, and clips. Uploading to Frame.io. Pictures get insert into xlsxfile, paths, folders, and other frames to fix go to csv
+
+In this project, We use argparse to parse text files and video files. After reading the data from the text files. You can uncomment the section below to generate the frames directory in your project folder. In the frame directory, it will create video frames according to duration. Then get the fps using ffprobe and get the duration of video. We multiply the fps and duration to check the fps. We call the function convert_frames_to_timecodes to get the total seconds which divides the frame and fps into hours, minutes seconds, and deci seconds. Then depending on the output it will generate a CSV file or xlsx file with images, and paths to the location  of the frame. 
+
     
-   Uncomment out this section to get frames directory and generate frames from video. 
+   Uncomment out this section to get the frames directory and generate frames from the video. 
     """output_dir = os.path.join(current_directory, 'frames')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
